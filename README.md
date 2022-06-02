@@ -33,5 +33,6 @@ constructor
 - Wrong use of `override` in `deposit` function  
 
 #2. `DEPOSITOR_ROLE` in not given to any address i.e. `_setupRole(DEPOSITOR_ROLE, _msgSener());`
+![Screenshot](screenshot2.png)
 
 
