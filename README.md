@@ -11,7 +11,7 @@ And Yes this way we can also rectify NFT if any.
 
 ### Minor issue
 1. A `require` statement should be used in `totalSupply` function to verify if entered 
-`id` is exists or not i.e. `require(exists(id), "non-existent token")`
+`id` is exists or not i.e. `require(exists(id))`
 
 ![Screenshot](screenshot.png)
 
