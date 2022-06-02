@@ -22,7 +22,7 @@ it can be simple as above if condtion
 ## Milk.sol
 Compile time errors (Total 6)
 
-- CONTRACT_ROLE is being used in 4 functions but not defined to any address on
+- CONTRACT_ROLE is being used in below 4 functions but not defined to any address on
 constructor
 1. gameWithdraw
 2. gameTransferFrom
