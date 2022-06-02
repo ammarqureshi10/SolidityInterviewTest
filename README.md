@@ -18,8 +18,9 @@ And Yes this way we can also rectify NFT if any.
 #2. Extra code in second if condition line 53:
 it can be simple as above if condtion
 
-
-
+## Claim()
+Below code would be a great way to let user claim once per day
+![Screenshot](screenshot3.png)
 ## Milk.sol | Flaws
 #1. Compile time errors (Total 6)
 
@@ -36,4 +37,11 @@ constructor
 #2. `DEPOSITOR_ROLE` in not given to any address i.e. `_setupRole(DEPOSITOR_ROLE, _msgSener());`
 ![Screenshot](screenshot2.png)
 
+## itemFactory.sol | Flaws
 
+Compile time errors (Total 12)
+
+Un-declared things i.e. lootData, EType, event: LogDailyClaim, petTokenId,
+_maxRarityRoll parameter in `setRarityRolls` function, wrong use of `ADMIN_ROLE`
+instead of `DEFAULT_ADMIN_ROLE` in both `setRarityRolls` & `setReward` functions AND 
+missing Interface of Milk contract in `ItemFactory` contract for `gameMint()` function call
