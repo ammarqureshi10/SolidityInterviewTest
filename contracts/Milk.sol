@@ -13,7 +13,7 @@ contract Milk is ERC20, AccessControl {
     constructor(
         string memory name,
         string memory symbol,
-        address systemCheckerContractAddress
+        // address systemCheckerContractAddress
     ) ERC20(name, symbol){
         _setupRole(DEFAULT_ADMIN_ROLE, _msgSender());
         _setupRole(CONTRACT_ROLE, address(this));
