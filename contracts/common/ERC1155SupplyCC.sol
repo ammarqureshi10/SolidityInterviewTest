@@ -20,6 +20,7 @@ abstract contract ERC1155SupplyCC is ERC1155 {
      * @dev Total amount of tokens in with a given id.
      */
     function totalSupply(uint256 id) public view virtual returns (uint256) {
+        // require(exists(id), "non-existent token");
         return _totalSupply[id];
     }
 
