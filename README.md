@@ -19,10 +19,10 @@ And Yes this way we can also rectify NFT if any.
 it can be simple as above if condtion
 
 
-## Milk.sol
-Compile time errors (Total 6)
+## Milk.sol | Flaws
+#1. Compile time errors (Total 6)
 
-- CONTRACT_ROLE is being used in 4 functions but not defined to any address on
+- CONTRACT_ROLE is being used in below 4 functions but not defined to any address on
 constructor
 1. gameWithdraw
 2. gameTransferFrom
@@ -31,5 +31,8 @@ constructor
 - MASTER_ROLE is being used `mint` function but not defined to any address on
 constructor
 - Wrong use of `override` in `deposit` function  
+
+#2. `DEPOSITOR_ROLE` in not given to any address i.e. `_setupRole(DEPOSITOR_ROLE, _msgSener());`
+![Screenshot](screenshot2.png)
 
 
