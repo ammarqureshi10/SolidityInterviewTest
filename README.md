@@ -10,13 +10,14 @@ owned `id` per specific `account`.
 And Yes this way we can also rectify NFT if any.
 
 ### Minor issue
-1. A `require` statement should be used in `totalSupply` function to verify if entered 
+#1. A `require` statement should be used in `totalSupply` function to verify if entered 
 `id` is exists or not i.e. `require(exists(id));`
 
 ![Screenshot](screenshot.png)
 
-2. Extra code in second if condition line 53:
+#2. Extra code in second if condition line 53:
 it can be simple as above if condtion
+
 
 
 ## Milk.sol | Flaws
