@@ -1,6 +1,7 @@
 # Cool Cats Solidity Test
 
-1. Why you used ERC1155SupplyCC ?
+# ERC1155SupplyCC
+Why was this file used and not used directly from the OpenZeppling library?
 
 My Opinion: The main reason would be that you want a function
 that get supply of each `id` purely rather than puting `account`
