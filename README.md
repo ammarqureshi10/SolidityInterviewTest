@@ -43,4 +43,4 @@ Compile time errors (Total 12)
 Un-declared things i.e. lootData, EType, event: LogDailyClaim, petTokenId,
 _maxRarityRoll parameter in `setRarityRolls` function, wrong use of `ADMIN_ROLE`
 instead of `DEFAULT_ADMIN_ROLE` in both `setRarityRolls` & `setReward` functions AND 
-missing Interface of Milk contract in ItemFactory contract for `gameMint` function call
+missing Interface of Milk contract in `ItemFactory` contract for `gameMint()` function call
