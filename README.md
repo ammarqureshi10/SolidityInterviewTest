@@ -13,6 +13,5 @@ And Yes this way we can also rectify NFT if any.
 A require statement should be used in order to verify if that
 specific `id` is exists or not
 // require(exists(id), "non-existent token")
-
 Extra code in second if condition line 53:
 it can be simple as above if condtion
