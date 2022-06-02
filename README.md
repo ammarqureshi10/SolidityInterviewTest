@@ -7,3 +7,4 @@ The main reason would be that you want a function
 that get supply of each `id` purely rather than puting `account`
 like `balanceOf` function in ERC1155 where we only get
 owned `id` per specific `account`.
+And Yes this way we can also rectify NFT if any.
