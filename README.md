@@ -1,6 +1,6 @@
 # Cool Cats Solidity Test
 
-# ERC1155SupplyCC
+## ERC1155SupplyCC
 Why was this file used and not used directly from the OpenZeppling library?
 
 My Opinion: The main reason would be that you want a function
