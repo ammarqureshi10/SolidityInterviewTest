@@ -18,8 +18,9 @@ And Yes this way we can also rectify NFT if any.
 #2. Extra code in second if condition line 53:
 it can be simple as above if condtion
 
-
-
+## Claim()
+Below code would be a great way to let user claim once per day
+![Screenshot](screenshot3.png)
 ## Milk.sol | Flaws
 #1. Compile time errors (Total 6)
 
