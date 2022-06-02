@@ -28,10 +28,8 @@ constructor
 2. gameTransferFrom
 3. gameBurn
 4. gameMint
- 
 - MASTER_ROLE is being used `mint` function but not defined to any address on
 constructor
-
 - Wrong use of `override` in `deposit` function  
 
 
